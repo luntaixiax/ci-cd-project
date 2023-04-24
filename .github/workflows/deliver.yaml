@@ -2,7 +2,7 @@ name: build, push and deploy
 on:
   push: # will trigger workflow when push event
     branches:
-      - inplace-deplopyment # will trigger when push to this branch
+      - inplace-deployment # will trigger when push to this branch
   pull_request: # will also trigger if PR is open
 
 env:
